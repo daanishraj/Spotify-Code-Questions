@@ -37,15 +37,8 @@ def decodeString(s):
     return (listStr[-1])
 
 
-# s1 = "3[a]2[bc]"  #return "aaabcbc".
-# s2 = "3[a2[c]]" #return "accaccacc".
-# s3 = "2[abc]3[cd]ef" #return "abcabccdcdcdef"
-# s4 = "4[ab]" #"abababab" 
-# s5 = "2[b3[a]]" #"baaabaaa"
-# s6 = "100[dog]"
+
+# s1 = "4[ab]" #"abababab" 
+# s2 = "2[b3[a]]" # "baaabaaa"
 # print(decodeString(s1))
 # print(decodeString(s2))
-# print(decodeString(s3))
-# print(decodeString(s4))
-# print(decodeString(s5))
-# print(decodeString(s6))
